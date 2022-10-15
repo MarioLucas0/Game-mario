@@ -1,6 +1,7 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const clouds = document.querySelector('.clouds');
+const body = document.querySelector('body');
 
 const jump = ()   => {
 
@@ -31,8 +32,6 @@ const loop = setInterval(()  =>  {
     mario.style.width = '75px';
     mario.style.marginLeft = '50px';
     mario.style.zIndex = '1';
-
-    
 
 
     clearInterval(loop);
